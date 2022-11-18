@@ -1,14 +1,17 @@
 * {
+    /* styling the outer frame of the website */ 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /* styling the body of html file */
     background-color: #d9dcd6;
 }
 
 .header {
+    /* styling the padding , font and colour of the main header of the website */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -25,6 +28,7 @@ body {
 }
 
 .header nav {
+    /* styling the whole navigation area in the header */ 
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,15 +37,18 @@ body {
 }
 
 .header nav ul {
+    
     list-style-type: none;
 }
 
 .header nav ul li {
+    /*styling the positioning of the list elements in the navigation tab */ 
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
+    /* styling the hyper links in the nav bar */
     color: #ffffff;
     text-decoration: none;
 }
@@ -62,16 +69,19 @@ p {
 }
 
 .float-left {
+    /* styling the positioning of images in section to the left */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* styling the positioning of images in section to the right*/
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /* styling the display and positioning of content within the main section */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -103,28 +113,22 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+h3 {
+    /* styling all h3 tags in the website with the same margin pixels and alignment */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 .benefits img {
+    /* styling all images within the aside portion of the website */ 
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.horiseon-services-information {
+    /* styling the positioning, font, and colours of sections on services on the websit */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -133,52 +137,19 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+section img {
+    /* styling all images within the section tag in website */
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+h2 {
+    /* all h2 tags in the website to share the same margin positions pixels and share teh same font size */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .footer {
+    /* styling the footer of the html file (website) */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
