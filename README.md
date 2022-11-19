@@ -19,3 +19,5 @@ This webpage can be used as the go-to for basic information regarding services o
 
  ## Direct url to project: 
  https://zodumo.github.io/Horiseon-/
+## Webpage should look like something like this:
+<img width="1440" alt="Screenshot 2022-11-19 at 00 15 02" src="https://user-images.githubusercontent.com/65924656/202823664-2eae93a3-c050-4a85-a4fd-d3f7c9f7c1d7.png">
